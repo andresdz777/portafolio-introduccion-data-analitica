@@ -1,0 +1,4 @@
+## City_Geo
+select *
+from country as cr
+inner join city as c on cr.country_id = c.country_id
